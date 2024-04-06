@@ -1,0 +1,130 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+
+} */
+
+/* .css-13cymwt-control {
+  outline: none;
+  padding: 5px;
+}
+
+.css-13cymwt-control>div:active {
+  border: none;
+  outline: none;
+
+  padding: 75px;
+}
+
+.css-13cymwt-control>div:hover {
+  border: none;
+  outline: none;
+  padding: 25px;
+} */
+
+
+.react-select-container {
+  &.genresDD {
+    width: 100%;
+
+  }
+
+  &.sortbyDD {
+    width: 100%;
+    flex-shrink: 0;
+
+  }
+
+  .react-select__control {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background-color: var(--black-light);
+    border-radius: 20px;
+
+    .react-select__value-container {
+
+      .react-select__placeholder,
+      .react-select__input-container {
+        color: white;
+        margin: 0 10px;
+      }
+    }
+
+    .react-select__single-value {
+      color: white;
+    }
+
+    .react-select__multi-value {
+      background-color: var(--black3);
+      border-radius: 10px;
+
+      .react-select__multi-value__label {
+        color: white;
+      }
+
+      .react-select__multi-value__remove {
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          color: var(--black-lighter);
+        }
+      }
+    }
+  }
+
+  .react-select__menu {
+    top: 40px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+/* Hide the scrollbar while allowing scrolling */
+.element {
+  width: 100%;
+  /* Set the width of your element */
+  height: 300px;
+  /* Set the height of your element */
+  overflow: auto;
+  /* or overflow: scroll; */
+}
+
+/* Optionally, you can style the scrollbar */
+.element::-webkit-scrollbar {
+  display: none;
+  /* Hide the scrollbar in Webkit browsers (Chrome, Safari) */
+}
+
+/* For Firefox */
+.element {
+  scrollbar-width: none;
+  /* Hide the scrollbar */
+}
+
+/* For Internet Explorer and Edge */
+.element {
+  -ms-overflow-style: none;
+  /* Hide the scrollbar */
+}
+
+
+.selected {
+  background: #7367F0;
+  background: linear-gradient(90deg, #9C94F4 0%, #7367F0 100%);
+  color: white;
+}
+.zxcv {
+  background: #05f525;
+  background: linear-gradient(90deg, #0bc646 0%, #9e0808 100%);
+  color: aqua;
+}
